@@ -1,0 +1,6 @@
+Download Exe yt-dlp.exe from --> https://github.com/yt-dlp/yt-dlp#release-files
+ 
+>> .\yt-dlp.exe https:/....
+>>ffmpeg -i videoDonwloaded.mp4 music.mp3
+or
+ffmpeg -i video.mp4 -b:a 192K -vn music.mp3
