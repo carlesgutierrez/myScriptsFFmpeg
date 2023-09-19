@@ -1,1 +1,4 @@
+Audiovolume down
 
+ffmpeg -i input.wav -filter:a "volume=0.5" output.wav
+link https://trac.ffmpeg.org/wiki/AudioVolume
